@@ -27,9 +27,4 @@ class MemberRepositoryTest extends RepositoryTestSupport {
         );
     }
 
-    @Test
-    void failTest() {
-        assertThat(true).isEqualTo(false);
-    }
-
 }
